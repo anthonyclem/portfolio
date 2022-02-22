@@ -1,0 +1,222 @@
+<!-- @format -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Anthony Clemenson</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="navbar-logo">
+          <a href="#home">Portfo<span>lio.</span></a>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#skills">Compétences</a></li>
+        </ul>
+        <div class="navbar-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!--ACCUEIL-->
+
+    <div class="home" id="home">
+      <div class="home-content max-width">
+        <div class="home-text">
+          <h1 class="home-text-title"><span>Anthony</span> Clemenson</h1>
+          <p class="home-text-desc">
+            Passionné par le domaine de l'informatique et du digital
+          </p>
+        </div>
+        <div class="home-imgbox">
+          <img src="img/laptop.png" class="home-imgbox-img" />
+        </div>
+      </div>
+    </div>
+
+    <!--A-PROPOS-->
+
+    <div class="about" id="about">
+      <div class="max-width">
+        <h2 class="about-title">A propos</h2>
+        <div class="about-content">
+          <div class="about-content-column about-content-column-left">
+            <p>
+              Titulaire d'un BTS SIO dans lequel j'ai pu apprendre de nombreux
+              languages tels que javascript, java, c#, php, python.. Je
+              m'oriente désormais vers le domaine du digital et de la création.
+            </p>
+          </div>
+          <div class="about-content-column about-content-column-right">
+            <ul>
+              <li
+                class="about-content-column-right-date"
+                data-date="2019 - 2021"
+              >
+                <h3>BTS SIO</h3>
+              </li>
+              <li
+                class="about-content-column-right-date"
+                data-date="Janvier 2021"
+              >
+                <h3>Stage Web</h3>
+              </li>
+              <li
+                class="about-content-column-right-date"
+                data-date="2017 - 2019"
+              >
+                <h3>BAC STI2D</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--PROJETS-->
+
+    <div class="projets" id="projets">
+      <div class="max-width">
+        <h2 class="projets-title">Projets</h2>
+        <div class="projets-content">
+          <!--Preview-->
+          <div class="projets-content-card">
+            <div class="projets-content-card-box">
+              <img src="img/preview1.jpg" />
+              <div class="projets-content-card-box-text">
+                Preview <span>(PHP/MySQL)</span>
+              </div>
+              <p class="projets-content-card-box-desc">
+                Preview est un site de référencement cinématographique contenant
+                sa partie administration.
+              </p>
+            </div>
+          </div>
+          <!--Application mobile-->
+          <div class="projets-content-card">
+            <div class="projets-content-card-box">
+              <img src="img/android1.jpg" />
+              <div class="projets-content-card-box-text">
+                Application mobile <span>(Java)</span>
+              </div>
+              <p class="projets-content-card-box-desc">
+                Cette application sert à calculer et enregistrer la durée
+                d'utilisation de notre matériel.
+              </p>
+            </div>
+          </div>
+          <!--Projet personnel-->
+          <div class="projets-content-card">
+            <div class="projets-content-card-box">
+              <img src="img/apimeteo.jpg" />
+              <div class="projets-content-card-box-text">
+                API Meteo <span>(Javascript)</span>
+              </div>
+              <p class="projets-content-card-box-desc">
+                En tant que projet personnel, j'ai réalisé une API météo à
+                l'aide d'openweather
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--COMPETENCES-->
+
+    <div class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="skills-title">Compétences</h2>
+
+        <div class="skills-content">
+          <!--html-->
+
+          <div class="skills-content-bars">
+            <div class="skills-content-bars-info">
+              <span>HTML / CSS</span>
+              <span>90%</span>
+            </div>
+            <div
+              class="skills-content-bars-line skills-content-bars-line-html"
+            ></div>
+          </div>
+          <!--javascript-->
+          <div class="skills-content-bars">
+            <div class="skills-content-bars-info">
+              <span>Javascript</span>
+              <span>50%</span>
+            </div>
+            <div
+              class="skills-content-bars-line skills-content-bars-line-javascript"
+            ></div>
+          </div>
+          <!--php-->
+          <div class="skills-content-bars">
+            <div class="skills-content-bars-info">
+              <span>PHP</span>
+              <span>30%</span>
+            </div>
+            <div
+              class="skills-content-bars-line skills-content-bars-line-php"
+            ></div>
+          </div>
+          <!--photoshop-->
+          <div class="skills-content-bars">
+            <div class="skills-content-bars-info">
+              <span>Photoshop</span>
+              <span>60%</span>
+            </div>
+            <div
+              class="skills-content-bars-line skills-content-bars-line-photoshop"
+            ></div>
+          </div>
+
+          <!--design-->
+          <div class="skills-content-bars">
+            <div class="skills-content-bars-info">
+              <span>Design</span>
+              <span>50%</span>
+            </div>
+            <div
+              class="skills-content-bars-line skills-content-bars-line-design"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <footer>
+      <span
+        >Réalisé par <a href="#">Anthony Clemenson</a> |
+        <span class="far fa-copyright"></span>2022 Tous droits réservés.</span
+      >
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
